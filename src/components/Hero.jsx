@@ -15,7 +15,7 @@ const Hero = () => {
             </div>
             <button 
                 type='button'
-                onClick={() => window.open('')}
+                onClick={() => window.open('https://github.com/MuxN4/summafy')}
                 className='black_btn'
             >
                 Github
