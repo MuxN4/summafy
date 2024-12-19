@@ -5,11 +5,14 @@ const Hero = () => {
   return (
     <header className='w-full flex flex-col justify-center items-center'>
         <nav className='w-full flex items-center justify-between mb-10 pt-3'>
-            <img 
-                src={logo}
-                alt='summafy_logo'
-                className='w-28 object-contain'
-            />
+            <div className='flex items-center gap-2'>
+                <img 
+                    src={logo}
+                    alt='summafy_logo'
+                    className='w-20 object-contain'
+                />
+                <span className='text-xl font-bold'>Summafy</span>
+            </div>
             <button 
                 type='button'
                 onClick={() => window.open('')}
